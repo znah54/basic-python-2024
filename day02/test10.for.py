@@ -9,7 +9,3 @@ print(kor_sum)
 print(kor_sum/len(kor_sum))
 
 list_a = [[1,3,5],[2,4,8],[10,20,30]]
-
-for i in list_a:
-    for j in i:
-        print(j)
