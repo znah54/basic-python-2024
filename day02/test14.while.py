@@ -7,7 +7,9 @@ while count < 10 : # count 변수값이 10보다 작거나 같은 동안 반복
     # Winform 개발, 웹개발
     count = count+1
     print('나무찍기', count)
-
+#debugging
+    # F9 중단점 토글, F5 디버깅시작, F10 한줄씩 진행, F11 함수안으로 진입
+    # shift + F5 디버깅종료
 number = 0
 while True:
     number = number + 1
