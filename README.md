@@ -45,6 +45,26 @@
         - 변수와 함수를 모두 모아둔 곳 : 클래스(class)
         - 클레스에서 하나씩 생성 : 객체(object)
         - 캡슐화(__plateNumber)
-    
     - 패키지
     
+## 4일차
+- 파이썬 기초
+    - 패키지, 모듈 계속
+        > pip --version # 버전확인
+        > pip list # 현재 설치된 라이브러리 목록 확인
+        > pip install 패키지명 # 패키지를 내 컴퓨터에 설치
+        > pip uninstall 패키지명 # 패키지를 삭제
+
+    - 예외처리 : 비정상적 프로그램종료 막기
+    ```python
+    def divide(x,y):
+        try:
+            return x / y #ZeroDivisionError 발생
+    except ZeroDivisionError as e:
+        print('[오류]')
+        return 0
+    ```
+    - 파일 입출력
+    - 가상환경
+- 파이썬 활용
+    - 주피터 노트북북
