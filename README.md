@@ -83,3 +83,27 @@
 ## 5일차
  - 파이썬 응용
     - 주피터 노트북 활용 - 구글 코랩(colab)
+    - folium 계속
+    - json 입출력
+    - 응용예제 연습(10개)
+
+## 6일차
+- Python 라이브러리 경로 : C:\dev\Langs\Python311\Lib\site-packages
+ - 파이썬 응용
+    - Windiw App(PyQt) 만들기 
+
+    ```shell
+    > pip install PyQt5
+    > pip install PyQt5Designer
+    ```
+        
+        - PyQt5 기본실행
+        - QtDesigner 사용법
+        - 쓰레드 학습 : UI쓰레드와 Background쓰레드 분리
+          - GIL, 병렬프로세싱 더 학습할 것
+
+        ![쓰레드예제](https://raw.githubusercontent.com/znah54/basic-python-2024/main/images/Thread.gif)
+
+- 가상환경
+
+
