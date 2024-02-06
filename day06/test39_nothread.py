@@ -26,6 +26,8 @@ class qtwin_exam(QWidget): # QWidget을 상속받음
             self.txbLog.appedn(print_str)
             self.pgbTask.setValue(i) 
 
+    # Qwidget에 있는 closeEvent를 그대로 쓰면 그냥 닫힘
+    # 닫을지 말지를 한번더 물어보는 형태로 다시 구현하고 싶음(재정의 : Override)
     def closeEvent(self, QCloseEvent) -> None:
         re = QMessageBox.question(self, '종료확인', '종료할래?', QMessageBox.Yes|QMessageBox.No)
         if re == QMessageBox.Yes: #닫기
